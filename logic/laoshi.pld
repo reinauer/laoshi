@@ -1,0 +1,22 @@
+PARTNO		Laoshi;
+NAME		laoshi;
+DATE		May 20, 2024;
+REV		1;
+ASSEMBLY	Laoshi;
+LOCATION	Los Gatos;
+
+DEVICE		g16v8;
+
+PIN 6 = IMG;
+PIN [9,8,5,4,3,16,15,13,7,2,17,18] = [A0..1,A5..14];
+PIN 12 = A15;
+PIN 14 = OE;
+PIN 19 = CLK_OUT;
+
+field addr      = [A13..A5];
+
+CLK_OUT = ( addr:1000 & !OE & !IMG ) #
+          ( addr:0000 & !OE &  IMG );
+
+A14.D = A0;
+A15.D = A1;
