@@ -13,6 +13,9 @@ all: $(JED)
 
 util/jedcrc : util/jedcrc.c
 
+test:
+	./laoshi-test.tcl
+
 clean:
 	rm -f util/jedcrc
 distclean: clean
