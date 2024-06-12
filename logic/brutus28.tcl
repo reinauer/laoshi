@@ -1,6 +1,8 @@
 #!/usr/bin/expect
 #
-# This is a small test script for the laoshi rom bank switcher GAL.
+# This is a small test framework to test GALs with Brutus28:
+#          https://github.com/cdhooper/brutus28
+#
 # It uses TCL's expect, and Chris Hooper's "Brutus28" hardware and
 # "term" terminal program.
 #
