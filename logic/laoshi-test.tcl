@@ -52,7 +52,7 @@ source brutus28.tcl
 
 set device_to_use [detect_serial_port]
 # Start the term program with the selected device
-spawn term $device_to_use
+spawn util/term $device_to_use
 
 # Turn on the GAL
 setup
