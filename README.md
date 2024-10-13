@@ -16,7 +16,7 @@ There are three versions for your heart's delight: An SMD version, a through hol
   <img src="images/laoshi_smd_back.png?raw=True" alt="BOTTOM" width="45%" />
 </p>
 
-## SMD
+## A590
 <p float="center">
   <img src="images/laoshi_a590_front.png?raw=True" alt="TOP" width="45%" />
   <img src="images/laoshi_a590_back.png?raw=True" alt="BOTTOM" width="45%" />
@@ -31,4 +31,23 @@ can be found under logic/
 
 During assembly you need to cut pins 1 and 27 of the ROM socket.
 
-When assembling the A590 version, don't use a socket for the flash chip.
+When assembling the A590 version, don't use a socket for the flash chip. It is
+also recommended to cut the pins of the pin headers flat to the PCB surface
+before soldering, and covering the top with kapton tape to prevent shorts.
+
+# Example pictures
+
+## Through Hole version
+<p float=center">
+  <img src="images/photo_thruhole_GALpins.jpg?raw=True" alt="TOP" width="45%" />
+  <img src="images/photo_thruhole_GALpins_cut.jpg?raw=True" alt="TOP" width="45%" />
+  <img src="images/photo_thruhole_bottom.jpg?raw=True" alt="TOP" width="45%" />
+</p>
+
+## A590 version
+<p float=center">
+  <img src="images/photo_a590_bottom.jpg?raw=True" alt="TOP" width="45%" />
+  <img src="images/photo_a590_installed.jpg?raw=True" alt="TOP" width="45%" />
+  <img src="images/photo_a590_top.jpg?raw=True" alt="TOP" width="45%" />
+  <img src="images/photo_a590_top_kapton.jpg?raw=True" alt="TOP" width="45%" />
+</p>
