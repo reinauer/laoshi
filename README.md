@@ -5,9 +5,9 @@ This is a simple ROM bank switcher for certain Amiga ROMs that allows switching 
 There are two versions, an SMD version and a through hole version:
 
 ## Through Hole
-<p float="left">
-![TOP](images/laoshi_thruhole_front.png?raw=True)
-![BOTTOM](images/laoshi_thruhole_back.png?raw=True)
+<p float="center">
+  <img src="images/laoshi_thruhole_front.png?raw=True" alt="TOP" width="45%" />
+  <img src="images/laoshi_thruhole_back.png?raw=True" alt="BOTTOM" width="45%" />
 </p>
 
 ## SMD
