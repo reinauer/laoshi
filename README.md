@@ -11,8 +11,10 @@ There are two versions, an SMD version and a through hole version:
 </p>
 
 ## SMD
-![TOP](images/laoshi_smd_front.png?raw=True)
-![BOTTOM](images/laoshi_smd_back.png?raw=True)
+<p float="center">
+  <img src="images/laoshi_smd_front.png?raw=True" alt="TOP" width="45%" />
+  <img src="images/laoshi_smd_back.png?raw=True" alt="BOTTOM" width="45%" />
+</p>
 
 # Implementation / BOM
 
